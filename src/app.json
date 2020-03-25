@@ -1,0 +1,99 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/logs/main",
+    "pages/counter/main",
+
+    "pages/category/main",
+    "pages/cart/main",
+    "pages/user/main",
+
+    "pages/addr/main",
+    "pages/addr-edit/main",
+    "pages/search/main",
+    "pages/book-info/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#576b95",
+    "navigationBarTitleText": "先贤显现",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+
+    "list": [{
+      "text": "首页",
+      "pagePath": "pages/index/main",
+      "iconPath": "static/tabs/home.png",
+      "selectedIconPath": "static/tabs/home-active.png"
+    }, {
+      "text": "分类",
+      "pagePath": "pages/category/main",
+      "iconPath": "static/tabs/category.png",
+      "selectedIconPath": "static/tabs/category-active.png"
+    }, {
+      "text": "购物车",
+      "pagePath": "pages/cart/main",
+      "iconPath": "static/tabs/cart.png",
+      "selectedIconPath": "static/tabs/cart-active.png"
+    }, {
+      "text": "我的",
+      "pagePath": "pages/user/main",
+      "iconPath": "static/tabs/my.png",
+      "selectedIconPath": "static/tabs/my-active.png"
+    }],
+
+    "items": [{
+      "name": "首页",
+      "pagePath": "pages/index/main",
+      "icon": "static/tabs/home.png",
+      "activeIcon": "static/tabs/home-active.png"
+    }, {
+      "name": "分类",
+      "pagePath": "pages/category/main",
+      "icon": "static/tabs/category.png",
+      "activeIcon": "static/tabs/category-active.png"
+    }, {
+      "name": "购物车",
+      "pagePath": "pages/cart/main",
+      "icon": "static/tabs/cart.png",
+      "activeIcon": "static/tabs/cart-active.png"
+    }, {
+      "name": "我的",
+      "pagePath": "pages/user/main",
+      "icon": "static/tabs/user.png",
+      "activeIcon": "static/tabs/user-active.png"
+    }],
+    "position": "bottom"
+  },
+  "usingComponents": {
+    "van-button": "vant-weapp/dist/button/index",
+    "van-icon": "vant-weapp/dist/icon/index",
+    "van-cell": "vant-weapp/dist/cell/index",
+    "van-swipe-cell": "vant-weapp/dist/swipe-cell/index",
+    "van-cell-group": "vant-weapp/dist/cell-group/index",
+    "van-toast": "vant-weapp/dist/toast/index",
+    "van-tag": "vant-weapp/dist/tag/index",
+    "van-dialog": "vant-weapp/dist/dialog/index",
+    "van-field": "vant-weapp/dist/field/index",
+    "van-area": "vant-weapp/dist/area/index",
+    "van-switch": "vant-weapp/dist/switch/index",
+    "van-popup": "vant-weapp/dist/popup/index",
+    "van-action-sheet": "vant-weapp/dist/action-sheet/index",
+    "van-card": "vant-weapp/dist/card/index",
+    "van-tabs": "vant-weapp/dist/tabs/index",
+    "van-tab": "vant-weapp/dist/tab/index",
+    "van-search": "vant-weapp/dist/search/index",
+    "van-tree-select": "vant-weapp/dist/tree-select/index",
+    "van-goods-action": "vant-weapp/dist/goods-action/index",
+    "van-goods-action-icon": "vant-weapp/dist/goods-action-icon/index",
+    "van-goods-action-button": "vant-weapp/dist/goods-action-button/index",
+    "van-stepper": "vant-weapp/dist/stepper/index",
+    "van-radio-group": "vant-weapp/dist/radio-group/index",
+    "van-radio": "vant-weapp/dist/radio/index"
+  }
+}
